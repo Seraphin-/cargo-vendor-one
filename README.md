@@ -11,7 +11,7 @@ cargo install --git https://github.com/Seraphin-/cargo-vendor-one
 Usage: cargo vendor-one package1[@version1] [package2[@version2] ...]
 ```
 
-Packages will be copied to `vendor` and the `patch` section of `Cargo.toml` will be added or updating.
+Packages will be copied to `vendor` and the `patch` section of `Cargo.toml` will be added or updated.
 
 ## Credits
 Forked off code from `cargo-patch`.
