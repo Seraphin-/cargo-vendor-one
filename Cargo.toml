@@ -1,0 +1,17 @@
+[package]
+name = "cargo-vendor-one"
+version = "0.1.0"
+authors = ["Seraphin-"]
+edition = "2021"
+description = "Cargo Subcommand for vendoring single packages"
+license = "MIT"
+readme = "README.md"
+keywords = ["cargo", "vendor", "dependency", "dependencies"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+anyhow = "1"
+cargo = "0.86"
+fs_extra = "1"
+semver = "1"
+toml_edit = "0.22"
